@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Name and Tagline on the Left -->
+                <div class="name-profile">
+                    <h1 class="name">Hi,I'm Monish</h1>
+                    <p class="tagline">Machine Learning Engineer</p>
+                    <div class="line"></div>
+                </div>
+    
+                <!-- Profile Picture on the Right -->
+                <div class="profile-container">
+                    <img src="/assets/moni.jpg" alt="Profile Picture" class="profile-pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm Monish, a 3rd-year student specializing in machine learning and software development. 
+                I focus on Ml and AR/VR development, with experience in Python, C++, R, and machine learning libraries. 
+                When I'm not coding, I enjoy exploring new technologies and solving complex problems.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Technology  in AI and ML, SIMATS Engineering  2022-2026</li>
+                <li>Sunbeam CBSE School - Graduated: 2022</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="/assets/resume aanlyzer.jpg" alt="ATS Analyzer">
+                    <h3>AI-Powered ATS Resume Analyzer</h3>
+                    <p>Utilized NLP with TF-IDF, BERT embeddings, and Scikit-learn to boost resume screening efficiency by 30%.</p>
+                    <a href="https://github.com/monishkumaar3/ATS-Enhancer" class="btn" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/bt.jpg" alt="Brain Tumor Segmentation">
+                    <h3>Image Segmentation of Brain Tumor using U-Net</h3>
+                    <p>Developed a U-Net model with TensorFlow, achieving 95% accuracy in brain tumor segmentation.</p>
+                    <a href="https://github.com/monishkumaar3/Machine-learning-projects/blob/main/UNET_brain_tumor.ipynb" class="btn" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="assets/traffic.jpg" alt="Traffic Sign Detection">
+                    <h3>Real-time Traffic Sign Detection using YOLOv8</h3>
+                    <p>Implemented YOLOv8 with PyTorch and OpenCV to achieve 98% accuracy on live video feeds.</p>
+                    <a href="https://github.com/monishkumaar3/Machine-learning-projects/blob/main/TaffficSign.ipynb" class="btn" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/arimage.jpg" alt="AR Tracking">
+                    <h3>AR Image Tracking App</h3>
+                    <p>Built an AR Android app with AR Foundation and Unity, enabling real-time 3D dragon rendering.</p>
+                    <a href="https://github.com/monishkumaar3/Unity_projects" class="btn" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certification-cards">
+                <a href="https://coursera.org/verify/JX4IUKPPFY8Y" class="certification-card">
+                    <h3>Exploratory Data Analysis for Machine Learning (IBM)</h3>
+                    <p class="date">August 2024</p>
+                </a>
+                <a href="https://drive.google.com/file/d/1RDvcsXTaigt80miF9axO7l0SBO_dOXYo" class="certification-card">
+                    <h3>Machine Learning Basics to Advanced (Udemy)</h3>
+                    <p class="date">July 2024</p>
+                </a>
+                <a href="https://drive.google.com/file/d/1jgWGIbUFDmsjPdciDWluciAg0yMdfT3n" class="certification-card">
+                    <h3>Data Science: R Programming Complete Diploma (Udemy)</h3>
+                    <p class="date">July 2024</p>
+                </a>
+                <a href="https://coursera.org/verify/TX4FELFK62NU" class="certification-card">
+                    <h3>Machine Learning with Python (IBM)</h3>
+                    <p class="date">July 2024</p>
+                </a>
+                <a href="https://drive.google.com/file/d/1FYLakKp7pIXt9fIhiR7Hje8k0eU2o8-Y" class="certification-card">
+                    <h3>Oracle Cloud Infrastructure AI Associate (Oracle)</h3>
+                    <p class="date">August 2024</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Let's work together! Feel free to reach out.</p>
+            <div class="social-links">
+                <a href="mailto:monishkumaar3@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>                      
+                <a href="www.linkedin.com/in/monish-kumaar-9084b4267"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/monishkumaar3"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> monish. All rights reserved.</p>
+    </footer>
+
+    <!-- Back-to-Top Button -->
+    <button id="back-to-top" title="Go to top">↑</button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
